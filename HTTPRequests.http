@@ -1,0 +1,8 @@
+POST http://localhost:1337/entrance/signup
+content-type: application/json
+
+{
+    "email": "sample@gmaill.com",
+    "password": "foobar",
+    "fullName": "te user"
+}
